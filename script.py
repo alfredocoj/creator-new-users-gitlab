@@ -64,4 +64,4 @@ for i in range(sheet.nrows-1):
     print("Vinculando o usuario ao time: ")
     print(response_add_group.json())
 
-#/home/alfredo/projetos/python/gitlab-novos-usuarios/users_teste.xls
+print("Script finalizado!")
