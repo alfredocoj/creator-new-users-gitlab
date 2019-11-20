@@ -3,6 +3,9 @@
 # env
 .env
 
+#python
+venv
+
 # excel extensions
 .xls
 .xlsx
