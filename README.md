@@ -36,7 +36,7 @@ pip install -U python-dotenv
 python script.py
 ```
 
-# Rerefências
+# Referências
 
 [https://docs.gitlab.com/ee/api/users.html#user-creation](https://docs.gitlab.com/ee/api/users.html#user-creation)
 
