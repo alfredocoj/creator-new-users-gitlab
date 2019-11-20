@@ -3,17 +3,35 @@
 Esse script python cria usuário(s) a partir de um arquivo .xls no Gitlab. Para isso utiliza bibliotecas do python e a API do gitlab.
 
 
-## Prerequisitos
+## Pré-requisitos
 
-1. Para começar a usar essa lib é preciso criar um Token com perfil administrativo no gitlab, ver [link](https://docs.gitlab.com/ee/user/profile/personal_access_tokens.html).
+1. Instalação do Python
+ 
+ - Linux
+ 
+```
+$ sudo apt-get update
+$ sudo apt-get install python3.6
+```
 
-2. Criar um arquivo .env com o valor do token, conforme .env.example.
+ - Windows: [https://www.python.org/downloads/](https://www.python.org/downloads/)
+ 
+2. Para começar a usar essa lib é preciso criar um Token com perfil administrativo no gitlab, ver [link](https://docs.gitlab.com/ee/user/profile/personal_access_tokens.html).
 
-3. Instalação:
+3. Criar um arquivo .env com o valor do token criado no passo 2 e password, conforme .env.example.
+
+4. Instalação de libs:
+
 ```
 pip install xlrd
 
 pip install requests
 
 pip install -U python-dotenv
+```
+
+## Execução
+
+```
+python script.py
 ```
