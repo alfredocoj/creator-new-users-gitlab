@@ -58,7 +58,7 @@ for i in range(sheet.nrows-1):
     access_level = 30
     user_perfil = {'user_id': user['id'], 'access_level': access_level}
 
-    response_group = requests.get("https://gitlab.mateus/api/v4/groups/" + grupo_id, json=user_perfil, headers=headers, verify=False)
+    response_group = requests.get("https://gitlab.mateus/api/v4/groups/" + grupo_id, headers=headers, verify=False)
     print(response_group.json())
     response_add_group = requests.post("https://gitlab.mateus/api/v4/groups/"+grupo_id+"/members", json=user_perfil, headers=headers, verify=False)
     print("Vinculando o usuario ao time: ")
