@@ -47,3 +47,5 @@ python script.py
 [https://docs.gitlab.com/ee/api/access_requests.html](https://docs.gitlab.com/ee/api/access_requests.html)
 
 [https://github.com/theskumar/python-dotenv](https://github.com/theskumar/python-dotenv)
+
+[https://stackoverflow.com/questions/22939211/what-is-the-proper-way-to-take-a-directory-path-as-user-input](https://stackoverflow.com/questions/22939211/what-is-the-proper-way-to-take-a-directory-path-as-user-input)
