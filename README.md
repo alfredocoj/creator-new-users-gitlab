@@ -35,3 +35,15 @@ pip install -U python-dotenv
 ```
 python script.py
 ```
+
+# Rerefências
+
+[https://docs.gitlab.com/ee/api/users.html#user-creation](https://docs.gitlab.com/ee/api/users.html#user-creation)
+
+[https://requests.readthedocs.io/pt_BR/latest/user/quickstart.html](https://requests.readthedocs.io/pt_BR/latest/user/quickstart.html)
+
+[https://docs.gitlab.com/ee/api/members.html](https://docs.gitlab.com/ee/api/members.html)
+
+[https://docs.gitlab.com/ee/api/access_requests.html](https://docs.gitlab.com/ee/api/access_requests.html)
+
+[https://github.com/theskumar/python-dotenv](https://github.com/theskumar/python-dotenv)
