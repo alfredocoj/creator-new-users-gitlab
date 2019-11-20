@@ -1,0 +1,8 @@
+# jetbrain Directrory
+.idea
+# env
+.env
+
+# excel extensions
+.xls
+.xlsx
